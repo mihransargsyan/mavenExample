@@ -9,5 +9,6 @@ public class StudentTest {
         student.setAge(30);
         student.setPhone("099854822");
         System.out.println(student);
+        System.out.println(student.hashCode());
     }
 }
